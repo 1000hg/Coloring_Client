@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="twinty">20sp</dimen>
+    <dimen name="twinty_five">25sp</dimen>
+
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/border"
+    android:id="@+id/rgb_valueLay"
+    android:gravity="center_vertical">
+            <Button
+                android:id="@+id/select_from_rgb_r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:stateListAnimator="@null"
+                android:background="#00ff0000"
+                android:text="R : 000" />
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#000000"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/select_from_rgb_g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:stateListAnimator="@null"
+                android:background="#00ff0000"
+                android:text="G : 000" />
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#000000"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/select_from_rgb_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:stateListAnimator="@null"
+                android:background="#00ff0000"
+                android:text="B : 000" />
+
+</android.widget.LinearLayout>
+
+
